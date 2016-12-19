@@ -1,0 +1,7 @@
+#!/bin/sh
+
+export MPICH_DBG_FILENAME="log/dbg-%w-%d.log"
+export MPICH_DBG_CLASS=ALL
+export MPICH_DBG_LEVEL=VERBOSE
+
+# MPICH_DBG_FILENAME="log/dbg-%w-%d.log" MPICH_DBG_CLASS=ALL MPICH_DBG_LEVEL=VERBOSE
